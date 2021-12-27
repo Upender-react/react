@@ -1,0 +1,21 @@
+.header {
+    width: 100%;
+    display: flex;
+}
+ul.header-menu {
+    width: 40%;
+}
+ul.header-menu {
+    list-style: none;
+}
+ul.header-menu li a {
+    color: #fff;
+    text-decoration: none;
+}
+.logo {
+    width: 60%;
+    float: right;
+}
+.logo img {
+    width: 30%;
+}
