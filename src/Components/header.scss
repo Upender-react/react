@@ -1,0 +1,19 @@
+.header {
+    width: 100%;
+    display: flex;
+    ul.header-menu {
+        width: 40%;
+        list-style: none;
+    }
+    li a {
+        color: #fff;
+        text-decoration: none;
+    }
+}
+.logo {
+    width: 60%;
+    float: right;
+    img {
+        width: 30%;
+    }
+}

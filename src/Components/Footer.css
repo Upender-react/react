@@ -1,9 +1,12 @@
 ul.footer-menu {
-    list-style: none;
-    column-count: 4;
+  list-style: none;
+  -webkit-column-count: 4;
+          column-count: 4;
 }
+
 ul.footer-menu li a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 20px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
 }
+/*# sourceMappingURL=footer.css.map */

@@ -1,21 +1,26 @@
 .header {
-    width: 100%;
-    display: flex;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
-ul.header-menu {
-    width: 40%;
+
+.header ul.header-menu {
+  width: 40%;
+  list-style: none;
 }
-ul.header-menu {
-    list-style: none;
+
+.header li a {
+  color: #fff;
+  text-decoration: none;
 }
-ul.header-menu li a {
-    color: #fff;
-    text-decoration: none;
-}
+
 .logo {
-    width: 60%;
-    float: right;
+  width: 60%;
+  float: right;
 }
+
 .logo img {
-    width: 30%;
+  width: 30%;
 }
+/*# sourceMappingURL=header.css.map */
