@@ -1,18 +1,19 @@
-import { BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import Header from "./Components/Header";
 import Content from "./Components/Content";
-import lets from "./Components/lets";
-import testing  from "./Components/testing";
-import dog from "./Components/dog";
+import Lets from "./Components/Lets";
+import Testing from "./Components/Testing";
+import Dog from "./Components/Dog";
 import Footer from "./Components/Footer";
-function App(){
+function App() {
+ 
     return <>
-    <Header/>
-    <Content/>
-    <lets/>
-    <testing/>
-    <dog/>
-    <Footer/>
+        <Header />
+        <Content />
+        <Lets />
+        <Testing />
+        <Dog />
+        <Footer />
     </>;
 }
 export default App;

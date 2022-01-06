@@ -1,8 +1,8 @@
 import './Content.css';
 import React, { Component, useState } from 'react'
 
-function teating() {
-    <>
+function Teating() {
+    return <>
         <div className="content">
             <div className="column">
                 <div id="form_3" className="srt_2">
@@ -26,4 +26,4 @@ function teating() {
         </div>
     </>
 }
-export default teating;
+export default Teating;

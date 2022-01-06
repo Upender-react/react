@@ -1,8 +1,8 @@
 import './Content.css';
 import React, { Component, useState } from 'react'
 
-function lets() {
-    <>
+function Lets() {
+    return <>
         <div className="content">
             <div className="column">
                 <div id="form_1" className="srt_2">
@@ -32,4 +32,4 @@ function lets() {
         </div>
     </>
 }
-export default lets;
+export default Lets;

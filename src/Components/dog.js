@@ -1,7 +1,8 @@
 import './Content.css';
 import React, { Component, useState } from 'react'
-function dog() {
-    <>
+
+function Dog() {
+    return <>
         <div className="content">
             <div className="column">
                 <div id="form_2" className="srt_2">
@@ -25,4 +26,4 @@ function dog() {
         </div>
     </>
 }
-export default dog;
+export default Dog;
