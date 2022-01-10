@@ -5,7 +5,7 @@ function Header(){
     return <>
     <div className="header">
         <ul className="header-menu">
-            <li><a to="#">Home</a></li>
+            <li><a to="#">Back</a></li>
         </ul> 
         <div className="logo">
             <img className="logo-img" src="./faq_logo.png"/>

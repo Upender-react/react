@@ -155,7 +155,8 @@ form.needs-validation.form-inline {
   margin: 16px 0px;
 }
 
-.button_1 button {
+.button_1 button {  
+  background-color: rgb(22 19 69);
   border: 1px solid #161345;
   color: #fff;
   -webkit-transition: all 150ms ease-in-out 0s;
