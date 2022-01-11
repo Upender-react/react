@@ -1,9 +1,9 @@
 import React, {useState} from "react"
-import Content from "./Content";
-import Lets from "./Lets";
-import Testing from "./Testing";
-import Dog from "./Dog";
-import './Content.css';
+import Content from "./Content"
+import Lets from "./Lets"
+import Testing from "./Testing"
+import Dog from "./Dog"
+import './Content.css'
 
 function Form (){
     const [page, setPage] = useState(0);
