@@ -13,11 +13,11 @@ function Dog() {
                                 <div className="form-group form">
                                     <input type="text" className="form-control" id="uname" placeholder="Fido, Snoopy, Wishbone, etc." name="uname" required="" />
                                 </div>
-                                <div className="form-group">
+                                {/* <div className="form-group">
                                     <div className="button_1">
                                         <button type="submit" className="btn">Next <img src="https://projectpet.org/wp-content/uploads/2021/12/arrow_icon_1.png" /></button>
                                     </div>
-                                </div>
+                                </div> */}
                             </form>
                         </div>
                     </div>

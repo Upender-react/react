@@ -19,11 +19,11 @@ function Lets() {
                                 <div className="form-group form">
                                     <input type="email" className="form-control" id="email" placeholder="Your Email" name="email" required="" />
                                 </div>
-                                <div className="form-group">
+                                {/* <div className="form-group">
                                     <div className="button_1">
                                         <button type="submit" className="btn">Next <img src="https://projectpet.org/wp-content/uploads/2021/12/arrow_icon_1.png" /></button>
                                     </div>
-                                </div>
+                                </div> */}
                             </form>
                         </div>
                     </div>
