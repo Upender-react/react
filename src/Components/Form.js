@@ -3,24 +3,24 @@ import Content from "./Content"
 import Lets from "./Lets"
 import Testing from "./Testing"
 import Dog from "./Dog"
-import './Content.css'
+import './Content.css'  
 
 function Form (){
     const [page, setPage] = useState(0);
 
     const PageDisplay = () => {
-        if(page === 0){
+        if (page === 0){
             return <Content />
         }
-        else if(page === 1){
+        else if (page === 1){
             return <Lets/>
         }
-        else if(page === 2){
+        else if (page === 2){
             return <Testing />
         }
-        else{
+        else {
             return <Dog />
-        }
+        }  
     };
     
     return (
